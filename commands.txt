@@ -20,7 +20,7 @@ $nano ~/.gitconfig
 13. $git checkout <branchname> - To switch to new branch
 14. $git branch - To show all branches
 15. $git status - To find your current branch
-!6. More lines to add
+16. More lines to add
 
 
 
