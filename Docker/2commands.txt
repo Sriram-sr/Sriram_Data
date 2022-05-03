@@ -1,0 +1,15 @@
+To create a customised image from the container :
+Login into container and after changes made logout (ctrl+d)
+
+$ docker commit <container_id> <new_image_name>:<tag> => will create a new customised image (eg. docker commit b235sgw67hsf2 new_image:2.1)
+
+After creating a docker file to build docker image,
+ $ docker build <imagename>:<tag> . => (.) stands for docker file (It should be in pwd or You should specify path)
+
+$ docker network ls => To list the docker networks
+
+$ docker nework create <network_name> => To create a new network
+
+$ docker network inspect <network_name> => To inspect driver and ip range subnet details of network
+
+$ docker inspect <container_name> => To inspect container about ip address assigned and more
