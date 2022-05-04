@@ -9,7 +9,7 @@ $nano ~/.gitconfig
 2. $git init - To add a empty repository
 3. $git remote add origin https://github.com/Sriram-sr/Bank_Server.git  (This command is entered only once for each repo)
 4. $git clone https://github.com/Sriram-sr/Bank_Server.git
-5. $git add -A
+5. $git add -A (or) git add -a => To add all files
 6. $git commit -m 'first'
 7. $git push origin main
 8. $git pull origin main - To get files
@@ -20,7 +20,8 @@ $nano ~/.gitconfig
 13. $git checkout <branchname> - To switch to new branch
 14. $git branch - To show all branches
 15. $git status - To find your current branch
-16. More lines to add
-
+16. $git reset 
+17. $ git restrore <file_name> => To restore changes in local repo
+18. $ git commit -a -m <any_message> => To add and commit.This can be done only for already tracked files
 
 

@@ -1,5 +1,7 @@
 $ minikube status => To get the status of node ,api server whether running
 
+$ kubectl run <pod_name> --image=<image_name> => will create a pod by pulling image and running a container inside a pod
+
 $ kubectl get nodes => To get the nodes configured with it
 
 $ kubectl create deployment <Name_of_cointainer> --image=<image_name> => will create a pod which is abstraction by deployement give the docker image to create
