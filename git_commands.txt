@@ -13,6 +13,7 @@ local repository -> Files stored after your commit waiting to push to remote
 2. $git init - To add a empty repository
 3. $git remote add origin https://github.com/Sriram-sr/Bank_Server.git  (This command is entered only once for each repo)
 4. $git clone https://github.com/Sriram-sr/Bank_Server.git
+4. $git clone -b <branch_name> <remote_repo_link> =>To clone a specific repository
 5. $git add -A (or) git add -a (or) git add . => To add all files
 6. $git commit -m 'first'
 6. $git ls-files => To list files in staging area
