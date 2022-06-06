@@ -30,6 +30,7 @@ local repository -> Files stored after your commit waiting to push to remote
 15. $git status - To find your current branch
 16. $git reset 
 17. $ git restore <file_name> => To restore changes in working directory after changed 
+17. $git stash => To delete the local edited changes
 18. $ git commit -a -m <any_message> => To add and commit.This can be done only for already tracked files
 c19. $ git diff <file_name> => To get the differece between added  staged area file being changed in working dir before commit
 20. $ git diff HEAD <file_name> => To get diff file in local repo and file in working dir
