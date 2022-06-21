@@ -25,4 +25,5 @@ $nano ~/.gitconfig
 18. $ git commit -a -m <any_message> => To add and commit.This can be done only for already tracked files
 19. $ git diff <file_name> => To get the differece between added o staged area file being changed in working dir before commit
 
+THINKPAD
 There is another file in same directory
