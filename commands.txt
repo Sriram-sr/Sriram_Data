@@ -27,3 +27,4 @@ $nano ~/.gitconfig
 
 THINKPAD
 There is another file in same directory
+Thinkpad...
