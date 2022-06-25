@@ -10,7 +10,7 @@ To get the ubuntu image
 
 $docker image pull ubuntu:latest ==> To get the ubuntu image (It wil get the image from Docker Hub)
 $docker run -it <imageid> /bin/bash ==> To get  terminal of the os image downloaded  -it stands for interactive terminal /bash for bash shell
-$docker exec <container_id (or) container_name> /bin/bash ==> To get interactive terminal using container name or id
+$docker exec -it <container_id (or) container_name> /bin/bash ==> To get interactive terminal using container name or id
 
 ----------------------------
 
